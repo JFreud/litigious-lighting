@@ -9,6 +9,12 @@
 //lighting functions
 color get_lighting( double *normal, double *view, color alight, double light[2][3], double *areflect, double *dreflect, double *sreflect) {
   color i;
+  color amb = calculate_ambient(alight, areflect);
+  color diff = calculate_diffuse(light, dreflect, normal);
+  color spec = calculate_specular(light, sreflect, view, normal);
+  i.red = amb.red + diff.red + spec.red;
+  i.green = amb.green + diff.green + spec.green;
+  i.blue = amb.blue + diff.blue + spec.blue;
   return i;
 }
 
@@ -23,14 +29,21 @@ color calculate_ambient(color alight, double *areflect ) {
 
 color calculate_diffuse(double light[2][3], double *dreflect, double *normal ) {
   color d;
-  light[][1]
-  d.red =
+  // double x = light[0][0];
+  // double y = light[0][1];
+  // double z = light[0][2];
+  d.red = light[1][0] * *dreflect * dot_product(normal, light[0]);
+  d.green = light[1][1] * *dreflect * dot_product(normal, light[0]);
+  d.blue = light[1][2] * *dreflect * dot_product(normal, light[0]);;
+  limit_color(&d);
   return d;
 }
 
 color calculate_specular(double light[2][3], double *sreflect, double *view, double *normal ) {
-
   color s;
+  s.red = 0;
+  s.green = 0;
+  s.blue = 0;
   return s;
 }
 
