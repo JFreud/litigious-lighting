@@ -1,0 +1,200 @@
+push
+move
+150 350 0
+rotate
+x 20
+rotate
+y 70
+sphere
+0 0 0 20
+pop
+push
+move
+160 310 0
+rotate
+z 20
+scale
+0.5 2 1
+sphere
+0 -30 0 40
+pop
+push
+move
+124 310 40
+rotate
+z 100
+scale
+0.37 1.7 1
+sphere
+0 0 0 20
+pop
+push
+move
+65 300 40
+rotate
+z 100
+scale
+0.37 1.7 1
+sphere
+0 0 0 20
+pop
+push
+move
+180 300 -40
+rotate
+z 45
+scale
+0.37 1.7 1
+sphere
+0 0 0 20
+pop
+push
+move
+225 255 -40
+rotate
+z 45
+scale
+0.37 1.7 1
+sphere
+0 0 0 20
+pop
+push
+move
+220 190 0
+rotate
+z -50
+scale
+0.5 2 1
+sphere
+0 -30 0 20
+pop
+push
+move
+158 90 0
+rotate
+z 200
+scale
+0.5 2 1
+sphere
+0 0 0 20
+pop
+push
+move
+195 195 0
+rotate
+z 45
+scale
+0.5 2 1
+sphere
+0 -30 0 20
+pop
+push
+move
+90 55 0
+rotate
+z 90
+scale
+0.75 2 1
+sphere
+0 -30 0 10
+pop
+push
+move
+245 138 0
+rotate
+z 55
+scale
+0.5 2 1
+sphere
+0 -30 0 20
+pop
+push
+move
+310 65 0
+rotate
+z -50
+scale
+0.75 2 1
+sphere
+0 0 0 10
+pop
+push
+move
+320 75 0
+rotate
+x 15
+scale
+1 0.75 1
+torus
+0 0 0 3 8
+pop
+push
+move
+340 75 0
+rotate
+x 60
+scale
+1 0.75 1
+torus
+0 0 0 3 8
+pop
+push
+move
+356 75 0
+rotate
+x 30
+scale
+1 0.75 1
+torus
+0 0 0 3 8
+pop
+push
+move
+370 75 0
+rotate
+x 50
+scale
+1 0.75 1
+torus
+0 0 0 3 8
+pop
+push
+move
+383 75 0
+rotate
+x 25
+scale
+1 0.75 1
+torus
+0 0 0 3 8
+pop
+push
+move
+395 75 0
+rotate
+x 80
+rotate
+z 15
+scale
+1 0.75 1
+torus
+0 0 0 3 8
+pop
+push
+move
+408 75 0
+rotate
+x 10
+scale
+1 0.75 1
+torus
+0 0 0 3 8
+pop
+push
+move
+450 75 0
+sphere
+0 0 0 40
+display
+save
+prisoner.png
